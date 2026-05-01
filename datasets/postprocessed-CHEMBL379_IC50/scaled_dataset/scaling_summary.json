@@ -1,0 +1,11 @@
+{
+  "input_dir": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\correlation_filtered_dataset",
+  "output_dir": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\scaled_dataset",
+  "scaling_method": "zscore",
+  "scaled_descriptor_count": 71,
+  "split_row_counts": {
+    "train": 1686,
+    "validation": 211,
+    "test": 211
+  }
+}

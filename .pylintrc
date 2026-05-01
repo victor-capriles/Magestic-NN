@@ -1,0 +1,5 @@
+[MAIN]
+extension-pkg-allow-list=rdkit
+
+[TYPECHECK]
+generated-members=Kappa1,Kappa2,Kappa3

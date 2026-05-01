@@ -1,0 +1,20 @@
+{
+  "input_dir": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\stratified_split_dataset",
+  "output_dir": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\variance_filtered_dataset",
+  "variance_threshold": 0.0,
+  "input_descriptor_count": 119,
+  "kept_descriptor_count": 114,
+  "dropped_descriptor_count": 5,
+  "dropped_descriptors": [
+    "slogp_VSA9",
+    "smr_VSA8",
+    "MQN18",
+    "MQN22",
+    "MQN23"
+  ],
+  "split_row_counts": {
+    "train": 1686,
+    "validation": 211,
+    "test": 211
+  }
+}

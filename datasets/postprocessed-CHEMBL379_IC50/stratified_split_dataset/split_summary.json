@@ -1,0 +1,31 @@
+{
+  "input_dataset": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\rdkit_descriptor_dataset\\classification_rdkit_descriptor_dataset.csv",
+  "output_dir": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\stratified_split_dataset",
+  "random_seed": 42,
+  "fractions": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "total_rows": 2108,
+  "descriptor_column_count": 119,
+  "split_counts": {
+    "train": 1686,
+    "validation": 211,
+    "test": 211
+  },
+  "class_distribution": {
+    "train": {
+      "active": 768,
+      "inactive": 918
+    },
+    "validation": {
+      "active": 96,
+      "inactive": 115
+    },
+    "test": {
+      "active": 96,
+      "inactive": 115
+    }
+  }
+}
