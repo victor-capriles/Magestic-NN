@@ -1,0 +1,12 @@
+{
+  "input_rows": 2111,
+  "threshold_nm": 310.0,
+  "labeled_rows": 2108,
+  "ambiguous_censored_rows": 3,
+  "collapsed_duplicate_groups": 0,
+  "conflicting_duplicate_groups": 0,
+  "final_structure_rows": 2108,
+  "final_active_rows": 960,
+  "final_inactive_rows": 1148,
+  "output_dir": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50"
+}

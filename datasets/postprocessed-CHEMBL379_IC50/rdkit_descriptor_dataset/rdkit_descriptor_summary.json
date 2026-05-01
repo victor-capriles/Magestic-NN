@@ -1,0 +1,8 @@
+{
+  "input_classification_rows": 2108,
+  "descriptor_rows_written": 2108,
+  "invalid_smiles_rows": 0,
+  "canonical_collision_groups": 0,
+  "descriptor_column_count": 119,
+  "output_dataset": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_IC50\\rdkit_descriptor_dataset\\classification_rdkit_descriptor_dataset.csv"
+}

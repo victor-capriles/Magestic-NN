@@ -1,0 +1,4 @@
+molecule_chembl_id,smiles,standard_relation,standard_value_nm,standard_units,target_chembl_id,exclusion_reason
+CHEMBL451080,C[C@]1(O)[C@H](n2ccc(N)nc2=O)O[C@@](CO)(N=[N+]=[N-])[C@H]1O,'<',100000.0,nM,CHEMBL379,ambiguous_censored_label
+CHEMBL469096,C[C@@]1(O)[C@H](n2ccc(N)nc2=O)O[C@@](CO)(N=[N+]=[N-])[C@H]1O,'<',100000.0,nM,CHEMBL379,ambiguous_censored_label
+CHEMBL469095,[N-]=[N+]=N[C@@]1(CO)C[C@@H](O)[C@H](n2ccc(N)nc2=O)O1,'<',100000.0,nM,CHEMBL379,ambiguous_censored_label
