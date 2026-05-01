@@ -27,6 +27,12 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+For NVIDIA GPU acceleration on Windows, install the CUDA-enabled PyTorch wheel after the base requirements:
+
+```powershell
+python -m pip install --force-reinstall --no-deps torch==2.11.0+cu130 --index-url https://download.pytorch.org/whl/cu130
+```
+
 ### Bash
 
 ```bash
