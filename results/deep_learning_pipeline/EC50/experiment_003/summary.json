@@ -1,0 +1,89 @@
+{
+  "run_directory": "results/deep_learning_pipeline/EC50/experiment_003",
+  "run_timestamp": "2026-05-03T00:01:16",
+  "device": "cpu",
+  "torch_version": "2.11.0+cpu",
+  "cuda_available": false,
+  "gpu": null,
+  "summary_file": "results/deep_learning_pipeline/EC50/experiment_003/summary.csv",
+  "confusion_summary_file": "results/deep_learning_pipeline/EC50/experiment_003/test_confusion_summary.csv",
+  "history_files": [
+    "results/deep_learning_pipeline/EC50/experiment_003/history/small_mlp_history.csv",
+    "results/deep_learning_pipeline/EC50/experiment_003/history/recommended_mlp_history.csv",
+    "results/deep_learning_pipeline/EC50/experiment_003/history/large_mlp_history.csv"
+  ],
+  "training_curve_files": [
+    "results/deep_learning_pipeline/EC50/experiment_003/plots/small_mlp_training_curves.png",
+    "results/deep_learning_pipeline/EC50/experiment_003/plots/recommended_mlp_training_curves.png",
+    "results/deep_learning_pipeline/EC50/experiment_003/plots/large_mlp_training_curves.png"
+  ],
+  "confusion_matrix_file": "results/deep_learning_pipeline/EC50/experiment_003/plots/test_confusion_matrices.png",
+  "results": [
+    {
+      "experiment": "small_mlp",
+      "hidden_layers": [
+        32
+      ],
+      "dropout": 0.3,
+      "epochs_trained": 150,
+      "best_epoch": 148,
+      "validation_loss": 0.35387365310588087,
+      "validation_accuracy": 0.8536585365853658,
+      "validation_precision": 0.8602150537634409,
+      "validation_recall": 0.8121827411167513,
+      "validation_f1": 0.835509138381201,
+      "validation_roc_auc": 0.9241459146295068,
+      "test_loss": 0.351647651223217,
+      "test_accuracy": 0.8524970963995354,
+      "test_precision": 0.8598382749326146,
+      "test_recall": 0.8096446700507615,
+      "test_f1": 0.8339869281045752,
+      "test_roc_auc": 0.9253986456374526
+    },
+    {
+      "experiment": "recommended_mlp",
+      "hidden_layers": [
+        64,
+        32
+      ],
+      "dropout": 0.3,
+      "epochs_trained": 150,
+      "best_epoch": 90,
+      "validation_loss": 0.3331417136422156,
+      "validation_accuracy": 0.859465737514518,
+      "validation_precision": 0.8438287153652393,
+      "validation_recall": 0.850253807106599,
+      "validation_f1": 0.8470290771175727,
+      "validation_roc_auc": 0.9328769877933456,
+      "test_loss": 0.3387345106067281,
+      "test_accuracy": 0.8687572590011614,
+      "test_precision": 0.8630490956072352,
+      "test_recall": 0.8477157360406091,
+      "test_f1": 0.8553137003841229,
+      "test_roc_auc": 0.9310563158295198
+    },
+    {
+      "experiment": "large_mlp",
+      "hidden_layers": [
+        128,
+        64,
+        32
+      ],
+      "dropout": 0.3,
+      "epochs_trained": 150,
+      "best_epoch": 53,
+      "validation_loss": 0.32650594195214716,
+      "validation_accuracy": 0.8536585365853658,
+      "validation_precision": 0.8401015228426396,
+      "validation_recall": 0.8401015228426396,
+      "validation_f1": 0.8401015228426396,
+      "validation_roc_auc": 0.9367275731257948,
+      "test_loss": 0.33669584411500364,
+      "test_accuracy": 0.851335656213705,
+      "test_precision": 0.8556149732620321,
+      "test_recall": 0.8121827411167513,
+      "test_f1": 0.8333333333333334,
+      "test_roc_auc": 0.9336867792041218
+    }
+  ]
+}
