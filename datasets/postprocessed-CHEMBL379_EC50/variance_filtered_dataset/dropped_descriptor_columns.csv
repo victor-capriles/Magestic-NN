@@ -1,0 +1,6 @@
+descriptor_name,train_variance,filter_reason
+slogp_VSA9,0.0,variance_at_or_below_threshold
+smr_VSA8,0.0,variance_at_or_below_threshold
+MQN18,0.0,variance_at_or_below_threshold
+MQN22,0.0,variance_at_or_below_threshold
+MQN23,0.0,variance_at_or_below_threshold

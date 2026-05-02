@@ -1,0 +1,9 @@
+{
+  "input_classification_dataset": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_EC50\\classification_curation_dataset\\classification_base_dataset.csv",
+  "input_classification_rows": 8607,
+  "descriptor_rows_written": 8607,
+  "invalid_smiles_rows": 0,
+  "canonical_collision_groups": 0,
+  "descriptor_column_count": 119,
+  "output_dataset": "C:\\Users\\CaVi962\\vscodeprojects\\Magestic-NN\\datasets\\postprocessed-CHEMBL379_EC50\\rdkit_descriptor_dataset\\classification_rdkit_descriptor_dataset.csv"
+}
