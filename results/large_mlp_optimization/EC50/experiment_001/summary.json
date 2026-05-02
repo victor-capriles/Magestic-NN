@@ -1,6 +1,6 @@
 {
   "run_directory": "results/large_mlp_optimization/EC50/experiment_001",
-  "run_timestamp": "2026-05-02T19:49:12",
+  "run_timestamp": "2026-05-02T22:46:11",
   "device": "cpu",
   "torch_version": "2.11.0+cpu",
   "cuda_available": false,
