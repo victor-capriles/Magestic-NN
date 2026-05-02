@@ -1,0 +1,108 @@
+{
+  "run_directory": "results/classical_ml_baseline/experiment_001",
+  "run_timestamp": "2026-05-02T18:36:08",
+  "data_directory": "datasets/postprocessed-CHEMBL379_IC50/scaled_dataset",
+  "selection_protocol": {
+    "train_split_only_for_fitting": true,
+    "validation_primary_metric": "f1",
+    "validation_secondary_metric": "roc_auc",
+    "decision_threshold": 0.5,
+    "test_set_touched_after_freeze_only": true
+  },
+  "model_grid_sizes": {
+    "logistic_regression": 6,
+    "random_forest": 24,
+    "svm": 24
+  },
+  "selected_model_family": "random_forest",
+  "selected_hyperparameters": {
+    "class_weight": "balanced",
+    "n_estimators": 200.0,
+    "max_depth": 10.0,
+    "min_samples_leaf": 1.0
+  },
+  "artifacts": {
+    "validation_trials_file": "results/classical_ml_baseline/experiment_001/validation_trials.csv",
+    "family_winners_file": "results/classical_ml_baseline/experiment_001/family_winners.csv",
+    "selected_baseline_summary_file": "results/classical_ml_baseline/experiment_001/selected_baseline_summary.csv",
+    "test_confusion_summary_file": "results/classical_ml_baseline/experiment_001/test_confusion_summary.csv",
+    "test_confusion_matrix_file": "results/classical_ml_baseline/experiment_001/plots/selected_baseline_test_confusion_matrix.png"
+  },
+  "family_winners": [
+    {
+      "C": NaN,
+      "class_weight": "balanced",
+      "n_estimators": 200.0,
+      "max_depth": 10.0,
+      "min_samples_leaf": 1.0,
+      "kernel": NaN,
+      "gamma": NaN,
+      "model_family": "random_forest",
+      "trial_index": 6,
+      "hyperparameters_json": "{\"class_weight\": \"balanced\", \"max_depth\": 10, \"min_samples_leaf\": 1, \"n_estimators\": 200}",
+      "validation_accuracy": 0.8815165876777251,
+      "validation_precision": 0.8585858585858586,
+      "validation_recall": 0.8854166666666666,
+      "validation_f1": 0.8717948717948718,
+      "validation_roc_auc": 0.9471014492753622,
+      "validation_log_loss": 0.31775292425340407
+    },
+    {
+      "C": 10.0,
+      "class_weight": NaN,
+      "n_estimators": NaN,
+      "max_depth": NaN,
+      "min_samples_leaf": NaN,
+      "kernel": "rbf",
+      "gamma": "scale",
+      "model_family": "svm",
+      "trial_index": 19,
+      "hyperparameters_json": "{\"C\": 10.0, \"class_weight\": null, \"gamma\": \"scale\", \"kernel\": \"rbf\"}",
+      "validation_accuracy": 0.8625592417061612,
+      "validation_precision": 0.8252427184466019,
+      "validation_recall": 0.8854166666666666,
+      "validation_f1": 0.8542713567839196,
+      "validation_roc_auc": 0.9273550724637681,
+      "validation_log_loss": 0.345832875854909
+    },
+    {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "n_estimators": NaN,
+      "max_depth": NaN,
+      "min_samples_leaf": NaN,
+      "kernel": NaN,
+      "gamma": NaN,
+      "model_family": "logistic_regression",
+      "trial_index": 4,
+      "hyperparameters_json": "{\"C\": 1.0, \"class_weight\": \"balanced\"}",
+      "validation_accuracy": 0.7962085308056872,
+      "validation_precision": 0.7623762376237624,
+      "validation_recall": 0.8020833333333334,
+      "validation_f1": 0.7817258883248731,
+      "validation_roc_auc": 0.8643115942028986,
+      "validation_log_loss": 0.5171769333986215
+    }
+  ],
+  "selected_baseline_summary": [
+    {
+      "selected_model_family": "random_forest",
+      "class_weight": "balanced",
+      "n_estimators": 200.0,
+      "max_depth": 10.0,
+      "min_samples_leaf": 1.0,
+      "validation_accuracy": 0.8815165876777251,
+      "validation_precision": 0.8585858585858586,
+      "validation_recall": 0.8854166666666666,
+      "validation_f1": 0.8717948717948718,
+      "validation_roc_auc": 0.9471014492753622,
+      "validation_log_loss": 0.3177529242534041,
+      "test_accuracy": 0.8530805687203792,
+      "test_precision": 0.7927927927927928,
+      "test_recall": 0.9166666666666666,
+      "test_f1": 0.8502415458937198,
+      "test_roc_auc": 0.9398097826086957,
+      "test_log_loss": 0.3375655375461338
+    }
+  ]
+}
