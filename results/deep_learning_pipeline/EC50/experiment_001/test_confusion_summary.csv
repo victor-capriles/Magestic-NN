@@ -1,0 +1,4 @@
+experiment,tn,fp,fn,tp
+small_mlp,421,46,79,315
+recommended_mlp,413,54,54,340
+large_mlp,405,62,54,340
