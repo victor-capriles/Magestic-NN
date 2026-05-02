@@ -1,0 +1,2 @@
+selected_model_family,class_weight,n_estimators,min_samples_leaf,validation_accuracy,validation_precision,validation_recall,validation_f1,validation_roc_auc,validation_log_loss,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_log_loss
+random_forest,balanced,500.0,3.0,0.8687572590011614,0.8593350383631714,0.8527918781725888,0.8560509554140128,0.9365047446167892,0.33305524096630007,0.8780487804878049,0.883289124668435,0.8451776649746193,0.8638132295719845,0.9445129838367808,0.3207485585573849

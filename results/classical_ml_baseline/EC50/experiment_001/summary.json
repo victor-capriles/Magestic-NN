@@ -1,0 +1,106 @@
+{
+  "run_directory": "results/classical_ml_baseline/EC50/experiment_001",
+  "run_timestamp": "2026-05-03T00:38:38",
+  "data_directory": "datasets/postprocessed-CHEMBL379_EC50/scaled_dataset",
+  "selection_protocol": {
+    "train_split_only_for_fitting": true,
+    "validation_primary_metric": "f1",
+    "validation_secondary_metric": "roc_auc",
+    "decision_threshold": 0.5,
+    "test_set_touched_after_freeze_only": true
+  },
+  "model_grid_sizes": {
+    "logistic_regression": 6,
+    "random_forest": 24,
+    "svm": 24
+  },
+  "selected_model_family": "random_forest",
+  "selected_hyperparameters": {
+    "class_weight": "balanced",
+    "n_estimators": 500.0,
+    "min_samples_leaf": 3.0
+  },
+  "artifacts": {
+    "validation_trials_file": "results/classical_ml_baseline/EC50/experiment_001/validation_trials.csv",
+    "family_winners_file": "results/classical_ml_baseline/EC50/experiment_001/family_winners.csv",
+    "selected_baseline_summary_file": "results/classical_ml_baseline/EC50/experiment_001/selected_baseline_summary.csv",
+    "test_confusion_summary_file": "results/classical_ml_baseline/EC50/experiment_001/test_confusion_summary.csv",
+    "test_confusion_matrix_file": "results/classical_ml_baseline/EC50/experiment_001/plots/selected_baseline_test_confusion_matrix.png"
+  },
+  "family_winners": [
+    {
+      "C": NaN,
+      "class_weight": "balanced",
+      "n_estimators": 500.0,
+      "max_depth": NaN,
+      "min_samples_leaf": 3.0,
+      "kernel": NaN,
+      "gamma": NaN,
+      "model_family": "random_forest",
+      "trial_index": 16,
+      "hyperparameters_json": "{\"class_weight\": \"balanced\", \"max_depth\": null, \"min_samples_leaf\": 3, \"n_estimators\": 500}",
+      "validation_accuracy": 0.8687572590011614,
+      "validation_precision": 0.8593350383631714,
+      "validation_recall": 0.8527918781725888,
+      "validation_f1": 0.8560509554140128,
+      "validation_roc_auc": 0.9365047446167892,
+      "validation_log_loss": 0.33305524096630007
+    },
+    {
+      "C": 10.0,
+      "class_weight": "balanced",
+      "n_estimators": NaN,
+      "max_depth": NaN,
+      "min_samples_leaf": NaN,
+      "kernel": "rbf",
+      "gamma": 0.01,
+      "model_family": "svm",
+      "trial_index": 23,
+      "hyperparameters_json": "{\"C\": 10.0, \"class_weight\": \"balanced\", \"gamma\": 0.01, \"kernel\": \"rbf\"}",
+      "validation_accuracy": 0.859465737514518,
+      "validation_precision": 0.8421052631578947,
+      "validation_recall": 0.8527918781725888,
+      "validation_f1": 0.8474148802017655,
+      "validation_roc_auc": 0.9272057304970707,
+      "validation_log_loss": 0.34499945644846547
+    },
+    {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "n_estimators": NaN,
+      "max_depth": NaN,
+      "min_samples_leaf": NaN,
+      "kernel": NaN,
+      "gamma": NaN,
+      "model_family": "logistic_regression",
+      "trial_index": 4,
+      "hyperparameters_json": "{\"C\": 1.0, \"class_weight\": \"balanced\"}",
+      "validation_accuracy": 0.7793263646922184,
+      "validation_precision": 0.7588832487309645,
+      "validation_recall": 0.7588832487309645,
+      "validation_f1": 0.7588832487309645,
+      "validation_roc_auc": 0.8553788628137262,
+      "validation_log_loss": 0.4746440918795022
+    }
+  ],
+  "selected_baseline_summary": [
+    {
+      "selected_model_family": "random_forest",
+      "class_weight": "balanced",
+      "n_estimators": 500.0,
+      "min_samples_leaf": 3.0,
+      "validation_accuracy": 0.8687572590011614,
+      "validation_precision": 0.8593350383631714,
+      "validation_recall": 0.8527918781725888,
+      "validation_f1": 0.8560509554140128,
+      "validation_roc_auc": 0.9365047446167892,
+      "validation_log_loss": 0.33305524096630007,
+      "test_accuracy": 0.8780487804878049,
+      "test_precision": 0.883289124668435,
+      "test_recall": 0.8451776649746193,
+      "test_f1": 0.8638132295719845,
+      "test_roc_auc": 0.9445129838367808,
+      "test_log_loss": 0.3207485585573849
+    }
+  ]
+}

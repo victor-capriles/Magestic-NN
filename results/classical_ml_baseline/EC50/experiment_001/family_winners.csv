@@ -1,0 +1,4 @@
+C,class_weight,n_estimators,max_depth,min_samples_leaf,kernel,gamma,model_family,trial_index,hyperparameters_json,validation_accuracy,validation_precision,validation_recall,validation_f1,validation_roc_auc,validation_log_loss
+,balanced,500.0,,3.0,,,random_forest,16,"{""class_weight"": ""balanced"", ""max_depth"": null, ""min_samples_leaf"": 3, ""n_estimators"": 500}",0.8687572590011614,0.8593350383631714,0.8527918781725888,0.8560509554140128,0.9365047446167892,0.33305524096630007
+10.0,balanced,,,,rbf,0.01,svm,23,"{""C"": 10.0, ""class_weight"": ""balanced"", ""gamma"": 0.01, ""kernel"": ""rbf""}",0.859465737514518,0.8421052631578947,0.8527918781725888,0.8474148802017655,0.9272057304970707,0.34499945644846547
+1.0,balanced,,,,,,logistic_regression,4,"{""C"": 1.0, ""class_weight"": ""balanced""}",0.7793263646922184,0.7588832487309645,0.7588832487309645,0.7588832487309645,0.8553788628137262,0.4746440918795022
